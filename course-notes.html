@@ -11,13 +11,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&family=Poppins:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/sidebar.css">
-    <link rel="stylesheet" href="styles/icons">
     <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/course-notes.css">
 
     <style>
       .sidebar-link .notes-icon {
         height: 36px;
         filter: invert(42%) sepia(30%) saturate(4682%) hue-rotate(166deg) brightness(101%) contrast(104%);
+      }
+
+      .notes {
+        color: white;
       }
     </style>
 
@@ -62,7 +66,7 @@
           <img class="home-icon" src="images/home.svg" alt="homepage">
           <span>Home</span>
         </a>
-        <a class="sidebar-link"
+        <a class="sidebar-link notes"
           href="course-notes.html">
           <img class="notes-icon" src="images/sticky-note.svg" alt="notes">
           <span>Course Notes</span>
@@ -88,5 +92,90 @@
         <img class="uwaterloo-logo" src="images/UW3.png" alt="University of Waterloo">
       </div>
     </div>
+
+
+    <main>
+      <h1 class="page-title">Course Notes</h1>
+    </main>
+    <table class="course-notes-table">
+      <tr>
+        <th>Course Name</th>
+        <th>Title</th>
+        <th>Time</th>
+        <th>Instructor</th>
+        <th>Notes</th>
+      </tr>
+      <tr>
+        <td>MATH 135</td>
+        <td>Algebra for Honours Mathematics</td>
+        <td>Winter 2021</td>
+        <td>Matthew Kennedy</td>
+        <td> <a href="notes/math135notes.pdf">Here</a></td>
+      </tr>
+      <tr>
+        <td>MATH 136</td>
+        <td>Linear Algebra 1 for Honours Mathematics</td>
+        <td>Spring 2021</td>
+        <td>Francine Vinette</td>
+        <td><a href="notes/MATH 136 Course Notes.pdf">Here</a></td>
+      </tr>
+      <tr>
+        <td>MATH 137</td>
+        <td>Calculus 1 for Honours Mathematics</td>
+        <td>Fall 2020</td>
+        <td>Eddie Dupont</td>
+        <td><a href="notes/Forrest_M137CN.pdf">Here</a></td>
+      </tr>
+      <tr>
+        <td>MATH 138</td>
+        <td>Calculus 2 for Honours Mathematics</td>
+        <td>Winter 2021</td>
+        <td>Jordan Hamilton</td>
+        <td><a href="notes/Forrest_M138CN_F20.pdf">Here</a></td>
+      </tr>
+      <tr>
+        <td>MATH 235</td>
+        <td>Linear Algebra 2 for Honours Mathematics</td>
+        <td>Fall 2021</td>
+        <td>Andrej Vukovic</td>
+        <td><a href="notes/MATH 235.pdf">Here</a></td>
+      </tr>
+      <tr>
+        <td>MATH 237</td>
+        <td>Calculus 3 for Honours Mathematics</td>
+        <td>Fall 2021</td>
+        <td>Amanda Garcia</td>
+        <td><a href="notes/math237-workbook-v1-2.pdf">Here</a></td>
+      </tr>
+      <tr>
+        <td>MATH 239</td>
+        <td>Introduction to Combinatorics</td>
+        <td>Winter 2022</td>
+        <td>Debbie Leung</td>
+        <td><a href="notes/Forrest_M138CN_F20.pdf">Here</a></td>
+      </tr>
+      <tr>
+        <td>CO 250</td>
+        <td>Introduction to Optimization</td>
+        <td>Fall 2021</td>
+        <td>Levent Tuncel</td>
+        <td><a href="notes/116-A-Gentle-Introduction-to-Optimization-B.-Guenin-J.-Könemann-L.-Tunçel-Edisi-1-2014.pdf">Here</a></td>
+      </tr>
+      <tr>
+        <td>STAT 230</td>
+        <td>Probability</td>
+        <td>Fall 2021</td>
+        <td>Don McLeish</td>
+        <td><a href="notes/STAT 230 Solutions F21 Edition.pdf">Here</a><br>
+            <a href="notes/STAT 230 Solutions F21 Edition.pdf">Solutions</a></td>
+      </tr>
+      <tr>
+        <td>STAT 231</td>
+        <td>Statistics</td>
+        <td>Winter 2022</td>
+        <td>Statistics</td>
+        <td><a href="notes/STAT 231 Course Notes Winter 2022 Edition.pdf">Here</a></td>
+      </tr>
+    </table>
   </body>
 </html>

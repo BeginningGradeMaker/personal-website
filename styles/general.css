@@ -3,3 +3,7 @@ body {
   margin: 0;
   padding-left: 350px;
 }
+
+.page-title {
+  font-size: 50px;
+}

@@ -1,0 +1,17 @@
+.course-notes-table {
+  width: 80%;
+}
+
+table, th, td {
+  border: 2px solid rgb(4, 11, 20);
+  border-collapse: collapse; 
+}
+
+th, td {
+  padding: 10px;
+}
+
+a {
+  color: rgb(20, 157, 221);
+  text-decoration: none;
+}

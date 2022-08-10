@@ -106,15 +106,14 @@
 }
 
 .uwaterloo-logo-container {
-  display: flex;
   height: 120px;
-  width: 300px;
-  justify-content: center;
+  width: 60%;
+  margin: auto;
 }
 
 .uwaterloo-logo {
   height: inherit;
-
+  margin-bottom: 0;
 }
 
 @media (max-width: 1000px) {

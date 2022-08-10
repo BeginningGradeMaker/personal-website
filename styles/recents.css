@@ -1,0 +1,46 @@
+body {
+  padding-left: 300px;
+}
+
+.page-title {
+  margin-left: 50px;
+}
+
+.recents-slide-container {
+  width: 960px;
+  margin: auto;
+  border: 5px solid rgb(4, 11, 20);
+  overflow: hidden;
+  position: relative;
+}
+
+.recents-slide {
+  width: 960px;
+  display: flex;
+  height: 540px;
+}
+
+#prevButton {
+  display: none;
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  left: 5%;
+  width: 30px;
+  cursor: pointer;
+}
+
+#nextButton {
+  display: none;
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  right: 5%;
+  width: 30px;
+  cursor: pointer;
+}
+
+.recents-slide-container:hover #prevButton,
+.recents-slide-container:hover #nextButton {
+  display: block;
+}

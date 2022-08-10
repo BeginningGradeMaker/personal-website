@@ -11,13 +11,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&family=Poppins:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/sidebar.css">
-    <link rel="stylesheet" href="styles/icons">
     <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/recents.css">
 
     <style>
       .sidebar-link .recents-icon {
         height: 36px;
         filter: invert(42%) sepia(30%) saturate(4682%) hue-rotate(166deg) brightness(101%) contrast(104%);
+      }
+
+      .recents {
+        color: white;
       }
     </style>
 
@@ -72,7 +76,7 @@
           <img class="projects-icon" src="images/work.svg" alt="projects">
           <span>Projects</span>
         </a>
-        <a class="sidebar-link"
+        <a class="sidebar-link recents"
           href="recents.html">
           <img class="recents-icon" src="images/nightlife.svg" alt="recents">
           <span>Recents</span>
@@ -88,5 +92,27 @@
         <img class="uwaterloo-logo" src="images/UW3.png" alt="University of Waterloo">
       </div>
     </div>
+
+    <main>
+      <h1 class="page-title">Recent Life</h1>
+      <h3 style="margin-left: 50px;
+              margin-top: -10px;">I will update pictures of my recent life on this page.</h3>
+      <div class="recents-slide-container">
+        <img src="images/arrow-left-solid.svg" id="prevButton"></button>
+        <img src="images/arrow-right-solid.svg" id="nextButton"></button>
+        <div class="recents-slide">
+          <img src="images/recents5.jpg" id="lastClone" alt="lastClone">
+          <img src="images/recents2.jpg" alt="1">
+          <img src="images/recents1.jpg" alt="2">
+          <img src="images/recents3.jpg" alt="3">
+          <img src="images/recents4.jpg" alt="4">
+          <img src="images/recents5.jpg" alt="5">
+          <img src="images/recents2.jpg" id="firstClone" alt=""firstClone>
+        </div>
+      </div>
+    </main>
+  
+  
+    <script src="scripts/recents.js"></script>
   </body>
 </html>

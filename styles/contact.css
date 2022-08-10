@@ -1,0 +1,8 @@
+.content-container {
+  display: flex;
+  column-gap: 30px;
+}
+
+.self-photo-container {
+  height: 500px;
+}
