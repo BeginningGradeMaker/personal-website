@@ -1,0 +1,129 @@
+.header {
+  display: block;
+  position: fixed;
+  background-color: rgb(4, 11, 20);
+  left: 0;
+  bottom: 0;
+  top: 0;
+  color: white;
+  width: 300px;
+  
+}
+
+.self-photo {
+  display: flex;
+  width: inherit;
+  height: 120px;
+  justify-content: center;
+  padding-top: 12px;
+}
+
+.gavin-photo {
+  object-fit: cover;
+  border-image-outset: 0;
+  border-radius: 60px;
+  border-width: 8px;
+  border-style: solid;
+  border-color: rgb(44, 47, 63);
+  outline: none;
+}
+
+.author-name {
+  display: flex;
+  font-family: Poppins, sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  justify-content: center;
+  margin-top: 8px;
+}
+
+.social-contact {
+  display: flex;
+  justify-content: center;
+  height: 36px;
+  column-gap: 12px;
+  margin-top: 12px;
+}
+
+.social-contact-icon-container {
+  display: flex;
+  height: 36px;
+  width: 36px;
+  background: #212431;
+  justify-content: center;
+  align-items: center;
+  border-radius: 18px;
+  transition: background 0.5s;
+}
+
+.social-contact-icon-container:hover {
+  background: rgb(29, 161, 242);
+}
+
+.social-contact-icon {
+  height: 16px;
+}
+
+.sidebar {
+  font-family: Poppins;
+  font-weight: 400;
+  margin-top: 45px;
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  height: 360px;
+  row-gap: 30px;
+}
+
+.sidebar-link {
+  display: flex;
+  align-items: center;
+  color: rgb(168,169,180);
+  text-decoration: none;
+  column-gap: 8px;
+}
+
+.sidebar-link:hover .home-icon,
+.sidebar-link:hover .notes-icon,
+.sidebar-link:hover .projects-icon,
+.sidebar-link:hover .recents-icon,
+.sidebar-link:hover .contact-icon {
+  height: 36px;
+  filter: invert(42%) sepia(30%) saturate(4682%) hue-rotate(166deg) brightness(101%) contrast(104%);
+}
+
+.sidebar-link:hover {
+  color: white;
+}
+
+.home-icon,
+.notes-icon,
+.projects-icon,
+.recents-icon,
+.contact-icon {
+  height: 24px;
+  transition: height 0.2s;
+}
+
+.uwaterloo-logo-container {
+  display: flex;
+  height: 120px;
+  width: 300px;
+  justify-content: center;
+}
+
+.uwaterloo-logo {
+  height: inherit;
+
+}
+
+@media (max-width: 1000px) {
+  body {
+    padding-left: 0;
+  }
+
+  .header {
+    position: static;
+  }
+
+}
